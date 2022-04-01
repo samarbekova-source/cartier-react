@@ -16,6 +16,7 @@ const ProductsList = () => {
   return (
     <div>
       <p>list chika</p>
+      <p>List Chika2</p>
     </div>
   );
 };
