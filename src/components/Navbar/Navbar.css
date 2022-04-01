@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 0.85rem;
+}
+.navbar-item {
+  margin: 5px 15px;
+  color: black;
+}
+.navbar-item-active {
+  margin: 5px 15px;
+  color: rgba(85, 83, 83, 0.842);
+  border-bottom: 1px solid grey;
+}
+a:hover {
+  color: black;
+}

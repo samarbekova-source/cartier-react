@@ -1,0 +1,31 @@
+.footer-a {
+  background-color: #eee8e8;
+  width: 100%;
+  height: 1px;
+}
+
+.contacts-a {
+  margin: 40px;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.footer-logos {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.linea {
+  background-color: #eee8e8;
+  width: 100%;
+  height: 1px;
+}
+a {
+  color: rgb(131, 125, 125);
+  fill: rgb(131, 123, 123);
+}
