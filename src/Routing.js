@@ -12,6 +12,7 @@ import JewelryAndWatches from "./components/Jewelry&Watches/Jewelry&Watches";
 import Cart from "./components/Cart/Cart";
 import Details from "./components/Details/Details";
 import Edit from "./components/Edit/Edit";
+
 const Routing = () => {
   let PUBLIC_ROUTES = [
     {
