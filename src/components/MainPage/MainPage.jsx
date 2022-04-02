@@ -6,7 +6,7 @@ const MainPage = () => {
     <div className="container">
       <div>
         <img
-          style={{ width: "100%" }}
+          style={{ width: "100%", marginTop: "50px" }}
           src="https://www.cartier.com/on/demandware.static/-/Library-Sites-CartierSharedLibrary-BGTJ/default/dw5b6f3822/homepage/2022/HP-April-2022/WW22_PUSH%20HP_HERO-MODULE-2560x996_1%20(1).jpg"
           alt=""
         />
@@ -125,13 +125,11 @@ const MainPage = () => {
 
       <div className="line-a"></div>
 
-
       <div className="subscribe-a">
         <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
         <input type="text" placeholder="Email" />
 
         <button id="btn-subscribe-a">Subscribe</button>
-
       </div>
     </div>
   );
