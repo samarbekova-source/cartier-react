@@ -8,6 +8,8 @@ import News from "./components/News/News";
 import Stores from "./components/Stores/Stores";
 import AdminPage from "./pages/AdminPage";
 import JewelryAndWatches from "./components/Jewelry&Watches/Jewelry&Watches";
+import Details from "./components/Details/Details";
+import Edit from "./components/Edit/Edit";
 const Routing = () => {
   let PUBLIC_ROUTES = [
     {
@@ -30,6 +32,11 @@ const Routing = () => {
       element: <Stores />,
       id: 4,
     },
+    {
+      link: "/products/:id",
+      element: <Details />,
+      id: 5,
+    },
   ];
 
   let ADMIN_ROUTES = [
@@ -37,6 +44,11 @@ const Routing = () => {
       link: "/admin",
       element: <AdminPage />,
       id: 1,
+    },
+    {
+      link: "/edit/:id",
+      element: <Edit />,
+      id: 2,
     },
   ];
   return (

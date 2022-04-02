@@ -56,6 +56,11 @@ const JewelryContextProvider = ({ children }) => {
     getJewelry();
   }
 
+  async function updateProduct(id, editedProduct) {
+    await axios.patch(`${JEWELRY_API}/${id}`, editedProduct);
+    getJewelry();
+  }
+
   return (
     <jewelryContext.Provider
       value={{
@@ -65,6 +70,7 @@ const JewelryContextProvider = ({ children }) => {
         deleteJewelry,
         getOneJewelry,
         createProduct,
+        updateProduct,
       }}
     >
       {children}
