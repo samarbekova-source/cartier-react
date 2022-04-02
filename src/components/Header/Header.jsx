@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Header.css";
 
 import Navbar from "../Navbar/Navbar";
@@ -8,8 +8,11 @@ import {
   ShoppingOutlined,
   UserOutlined,
 } from "@ant-design/icons";
+import { cartContext } from "../../contexts/cartContext";
+import { Badge } from "antd";
 
 const Header = () => {
+  const { cartLength } = useContext(cartContext);
   return (
     <>
       <div className="header">
@@ -36,7 +39,9 @@ const Header = () => {
           <HeartOutlined style={{ fontSize: "25px", color: "grey" }} />
           <UserOutlined style={{ fontSize: "25px", color: "grey" }} />
           <Link to="/cart">
-            <ShoppingOutlined style={{ fontSize: "25px", color: "grey" }} />
+            <Badge count={+cartLength}>
+              <ShoppingOutlined style={{ fontSize: "25px", color: "grey" }} />
+            </Badge>
           </Link>
         </div>
       </div>

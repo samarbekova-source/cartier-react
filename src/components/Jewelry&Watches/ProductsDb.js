@@ -90,19 +90,19 @@ export const myCollection = [
     id: 7,
     type: "jewelry",
   },
-  {
-    model: "PASHA DE CARTIER WATCH",
-    description:
-      "Pasha de Cartier watch, 30 mm, high autonomy quartz movement. 750/1000 rose gold case, fluted crown cap and crown set with sapphires, opaline flinqué dial, blued steel diamond-shaped hands, navy blue alligator leather strap, second strap in gray alligator leather with 'QuickSwitch' interchangeability system, interchangeable 750/1000 rose gold deployant buckle. Case diameter: 30 mm, thickness: 8.22 mm. Water-resistant up to 3 bar (approx. 30 meters/100 feet).",
-    price: 12100,
-    image1:
-      "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw7f1d705a/images/large/637719025102943193-2132255.png?sw=750&sh=750&sm=fit&sfrm=png",
-    image2:
-      "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw422ebb6d/images/large/637719025102943193-2132276.png?sw=2000&sh=2000&sm=fit&sfrm=png",
-    video: "https://www.youtube.com/watch?v=XnKfaUI0xxc",
-    id: 8,
-    type: "watches",
-  },
+  // {
+  //   model: "PASHA DE CARTIER WATCH",
+  //   description:
+  //     "Pasha de Cartier watch, 30 mm, high autonomy quartz movement. 750/1000 rose gold case, fluted crown cap and crown set with sapphires, opaline flinqué dial, blued steel diamond-shaped hands, navy blue alligator leather strap, second strap in gray alligator leather with 'QuickSwitch' interchangeability system, interchangeable 750/1000 rose gold deployant buckle. Case diameter: 30 mm, thickness: 8.22 mm. Water-resistant up to 3 bar (approx. 30 meters/100 feet).",
+  //   price: 12100,
+  //   image1:
+  //     "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw7f1d705a/images/large/637719025102943193-2132255.png?sw=750&sh=750&sm=fit&sfrm=png",
+  //   image2:
+  //     "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw422ebb6d/images/large/637719025102943193-2132276.png?sw=2000&sh=2000&sm=fit&sfrm=png",
+  //   video: "https://www.youtube.com/watch?v=XnKfaUI0xxc",
+  //   id: 8,
+  //   type: "watches",
+  // },
   {
     model: "TANK LOUIS CARTIER WATCH",
     description:

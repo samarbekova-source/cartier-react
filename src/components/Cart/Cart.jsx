@@ -30,7 +30,6 @@ const Cart = () => {
                   }}
                 >
                   <div>
-                    <h3>{item.item.brand}</h3>
                     <h4>{item.item.model}</h4>
                   </div>
                   <h3>{"$" + item.item.price}</h3>
