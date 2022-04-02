@@ -56,12 +56,12 @@ const JewelryAndWatches = () => {
             style={{ textAlign: "center", color: "rgb(221, 212, 212);" }}
             title={
               <>
-                <h4>{item.brand}</h4>
+                <h4>{item.model}</h4>
               </>
             }
             description={
               <>
-                <h3>{item.model}</h3>
+                <h3>{"$" + item.price}</h3>
               </>
             }
           />
