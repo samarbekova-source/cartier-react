@@ -9,6 +9,7 @@ const Cart = () => {
   useEffect(() => {
     getCart();
   }, []);
+  console.log(cart);
 
   return (
     <div className="container">
