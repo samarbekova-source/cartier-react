@@ -35,7 +35,9 @@ const Header = () => {
         <div className="icons">
           <HeartOutlined style={{ fontSize: "25px", color: "grey" }} />
           <UserOutlined style={{ fontSize: "25px", color: "grey" }} />
-          <ShoppingOutlined style={{ fontSize: "25px", color: "grey" }} />
+          <Link to="/cart">
+            <ShoppingOutlined style={{ fontSize: "25px", color: "grey" }} />
+          </Link>
         </div>
       </div>
       <Navbar />
