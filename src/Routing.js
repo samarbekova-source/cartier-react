@@ -8,6 +8,8 @@ import News from "./components/News/News";
 import Stores from "./components/Stores/Stores";
 import AdminPage from "./pages/AdminPage";
 import JewelryAndWatches from "./components/Jewelry&Watches/Jewelry&Watches";
+
+import Cart from "./components/Cart/Cart";
 import Details from "./components/Details/Details";
 import Edit from "./components/Edit/Edit";
 const Routing = () => {
@@ -33,6 +35,9 @@ const Routing = () => {
       id: 4,
     },
     {
+
+      link: "/cart",
+      element: <Cart />,
       link: "/products/:id",
       element: <Details />,
       id: 5,

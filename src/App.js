@@ -3,12 +3,15 @@ import "antd/dist/antd.css";
 import JewelryContextProvider from "./contexts/jewelryContext";
 
 import Routing from "./Routing";
+import CartContextProvider from "./contexts/cartContext";
 
 function App() {
   return (
     <div className="App">
       <JewelryContextProvider>
-        <Routing />
+        <CartContextProvider>
+          <Routing />
+        </CartContextProvider>
       </JewelryContextProvider>
     </div>
   );
