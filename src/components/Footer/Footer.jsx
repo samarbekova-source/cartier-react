@@ -34,7 +34,12 @@ const Footer = () => {
           <div>
             <h3>FOLOW US</h3>
             <a href="https://www.facebook.com/Cartier/" target="_blank">
-              <FacebookOutlined style={{ margin: "10px", fill: "black" }} />
+              <FacebookOutlined
+                style={{
+                  margin: "10px",
+                  fill: "black",
+                }}
+              />
             </a>
             <a
               style={{ margin: "10px" }}
