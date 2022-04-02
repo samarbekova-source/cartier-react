@@ -35,12 +35,14 @@ const Routing = () => {
       id: 4,
     },
     {
-
       link: "/cart",
       element: <Cart />,
+      id: 5,
+    },
+    {
       link: "/products/:id",
       element: <Details />,
-      id: 5,
+      id: 6,
     },
   ];
 
