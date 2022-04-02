@@ -1,31 +1,14 @@
 {
   "jewelry": [
     {
-      "model": "LOVE BRACELETS",
-      "description": "A love child of '70s New York, the LOVE collection is a symbol of free-spirited love. Its binding closure and screw motif give it true permanence, while diverse interpretations allow for a unique expression of feelings. Lock in your love, forever.",
-      "price": 11100,
-      "image1": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw3a06f6b7/images/large/637708792263622224-2088245.png?sw=750&sh=750&sm=fit&sfrm=png",
-      "image2": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dwd6f51c63/images/large/637708792263622224-2117876.png?sw=2000&sh=2000&sm=fit&sfrm=png",
-      "video": "https://www.youtube.com/watch?v=XnKfaUI0xxc",
-
-      "id": 1,
-      "type": "jewelry"
-
-  
-
-    },
-    {
       "model": "AMULETTE DE CARTIER BRACELET, XS MODEL",
       "description": "Amulette de Cartier bracelet, XS model, rose gold 750/1000, set with a brilliant-cut diamond of 0.02 carats, onyx. Diameter of motif: 12 mm.",
       "price": 1780,
       "image1": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dwa642fd67/images/large/637708798384376790-2116920.png?sw=750&sh=750&sm=fit&sfrm=png",
       "image2": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw3d57be2e/images/large/637708798384376790-2117664.png?sw=2000&sh=2000&sm=fit&sfrm=png",
       "video": "https://www.youtube.com/watch?v=XnKfaUI0xxc",
-
       "id": 2,
       "type": "jewelry"
-
-
     },
     {
       "model": "JUSTE UN CLOU BRACELET, MEDIUM MODEL",
@@ -34,10 +17,8 @@
       "image1": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw6a785355/images/large/637727603889563218-2195660.png?sw=750&sh=750&sm=fit&sfrm=png",
       "image2": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw5c5be982/images/large/637727603889563218-2195645.png?sw=750&sh=750&sm=fit&sfrm=png",
       "video": "https://www.youtube.com/watch?v=XnKfaUI0xxc",
-
       "id": 3,
       "type": "jewelry"
-
     },
     {
       "model": "CLASH DE CARTIER BRACELET MEDIUM MODEL",
@@ -46,10 +27,8 @@
       "image1": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dwd49d3233/images/large/637708809736526526-2196273.png?sw=750&sh=750&sm=fit&sfrm=png",
       "image2": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw3d00053e/images/large/637708809736526526-2196516.png?sw=750&sh=750&sm=fit&sfrm=png",
       "video": "https://www.youtube.com/watch?v=XnKfaUI0xxc",
-
       "id": 4,
       "type": "jewelry"
-
     },
     {
       "model": "LOVE NECKLACE, DIAMONDS",
@@ -58,11 +37,8 @@
       "image1": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw29aa2b57/images/large/637708811854490373-2088249.png?sw=750&sh=750&sm=fit&sfrm=png",
       "image2": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw80ab24ce/images/large/637708811854490373-2088530.png?sw=750&sh=750&sm=fit&sfrm=png",
       "video": "https://www.youtube.com/watch?v=XnKfaUI0xxc",
-
       "id": 5,
       "type": "jewelry"
-
- 
     },
     {
       "model": "ETINCELLE DE CARTIER RING",
@@ -71,10 +47,8 @@
       "image1": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dwd9d0bc1a/images/large/637709036319490560-2223217.png?sw=750&sh=750&sm=fit&sfrm=png",
       "image2": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dwa333890d/images/large/637709036319490560-2223262.png?sw=750&sh=750&sm=fit&sfrm=png",
       "video": "https://www.youtube.com/watch?v=XnKfaUI0xxc",
-
       "id": 6,
       "type": "jewelry"
-
     },
     {
       "model": "ESSENTIAL LINES RING",
@@ -83,10 +57,8 @@
       "image1": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw20e4b952/images/large/637777158017745742-2293160.png?sw=750&sh=750&sm=fit&sfrm=png",
       "image2": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dwe4765b10/images/large/637777158017745742-2293319.png?sw=2000&sh=2000&sm=fit&sfrm=png",
       "video": "https://www.youtube.com/watch?v=XnKfaUI0xxc",
-
       "id": 7,
       "type": "jewelry"
-
     },
     {
       "model": "PASHA DE CARTIER WATCH",
@@ -95,10 +67,8 @@
       "image1": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw7f1d705a/images/large/637719025102943193-2132255.png?sw=750&sh=750&sm=fit&sfrm=png",
       "image2": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw422ebb6d/images/large/637719025102943193-2132276.png?sw=2000&sh=2000&sm=fit&sfrm=png",
       "video": "https://www.youtube.com/watch?v=XnKfaUI0xxc",
-
       "id": 8,
       "type": "watches"
-
     },
     {
       "model": "TANK LOUIS CARTIER WATCH",
@@ -107,10 +77,8 @@
       "image1": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw6c6cf2a9/images/large/637709550337906083-2098122.png?sw=750&sh=750&sm=fit&sfrm=png",
       "image2": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw240b75ec/images/large/637709550337906083-2098203.png?sw=750&sh=750&sm=fit&sfrm=png",
       "video": "https://www.youtube.com/watch?v=XnKfaUI0xxc",
-
       "id": 9,
       "type": "watches"
-
     },
     {
       "model": "SANTOS-DUMONT WATCH",
@@ -119,10 +87,8 @@
       "image1": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dwe5044139/images/large/637709293516618022-2098136.png?sw=750&sh=750&sm=fit&sfrm=png",
       "image2": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw80116864/images/large/637709293516618022-2098219.png?sw=750&sh=750&sm=fit&sfrm=png",
       "video": "https://www.youtube.com/watch?v=XnKfaUI0xxc",
-
       "id": 10,
       "type": "watches"
-
     },
     {
       "model": "LOVE EARRINGS",
@@ -131,10 +97,8 @@
       "image1": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dwde8e076e/images/large/637708831897541947-2088277.png?sw=750&sh=750&sm=fit&sfrm=png",
       "image2": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw7cedd17c/images/large/637708831897541947-2088320.png?sw=750&sh=750&sm=fit&sfrm=png",
       "video": "https://www.youtube.com/watch?v=XnKfaUI0xxc",
-
       "id": 11,
       "type": "jewelry"
-
     },
     {
       "model": "TRINITY EARRINGS",
@@ -143,31 +107,27 @@
       "image1": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dwca290af3/images/large/637708713346699254-2088231.png?sw=750&sh=750&sm=fit&sfrm=png",
       "image2": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw0e9a5d55/images/large/637708713346699254-2088304.png?sw=750&sh=750&sm=fit&sfrm=png",
       "video": "https://www.youtube.com/watch?v=XnKfaUI0xxc",
-
       "id": 12,
       "type": "jewelry"
-
     },
     {
-
-      "model": "LOVE BRACELETS",
-      "description": "Offering unparalleled precision and truly special esthetics, the Formula 1 watch range is inspired by the brand’s long-lasting partnerships with motor racing teams and charismatic ambassadors. With its luxurious sports-lux feel and high performance features, this caliber TAG Heuer Formula 1 Men’s Watch will take you from the office to the sports field with effortless ease. Housed beneath a sapphire crystal lens for optimum protection, this visually striking timepiece boasts a midnight blue dial, a date display window at 3 o’clock, a gold bezel, a 41mm steel and gold plated case, as well as a gold and steel bracelet strap. This timepiece is also powered by Quartz Movement.",
-      "price": "1111111",
-      "image1": 11223,
-      "image2": "btgg",
-      "video": "btgb",
-      "id": 13},
-    {
-"model": "CARESSE D’ORCHIDÉES PAR CARTIER EARRINGS",
+      "model": "CARESSE D’ORCHIDÉES PAR CARTIER EARRINGS",
       "description": "Caresse d'Orchidées par Cartier earrings, small model, rose gold 750/1000, each set with 1 brilliant-cut diamond of 0.02 carat.",
       "price": 3650,
       "image1": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw403db4ec/images/large/637708832214105057-2116964.png?sw=750&sh=750&sm=fit&sfrm=png",
       "image2": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dwebf8293f/images/large/637708832214105057-2117072.png?sw=750&sh=750&sm=fit&sfrm=png",
       "video": "https://www.youtube.com/watch?v=XnKfaUI0xxc",
-
       "id": 13,
       "type": "jewelry"
-
+    },
+    {
+      "model": "LOVE BRACELETS",
+      "description": "aizada",
+      "price": "7777",
+      "image1": 12,
+      "image2": "23",
+      "video": "566",
+      "id": 14
     }
   ]
 }
