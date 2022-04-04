@@ -13,6 +13,10 @@ import Cart from "./components/Cart/Cart";
 import Details from "./components/Details/Details";
 import Edit from "./components/Edit/Edit";
 
+import Auth from "./components/Auth/Auth";
+
+
+
 const Routing = () => {
   let PUBLIC_ROUTES = [
     {
@@ -44,6 +48,11 @@ const Routing = () => {
       link: "/products/:id",
       element: <Details />,
       id: 6,
+    },
+    {
+      link: "/auth",
+      element: <Auth />,
+      id: 7,
     },
   ];
 
