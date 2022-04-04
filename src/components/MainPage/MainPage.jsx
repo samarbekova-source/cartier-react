@@ -11,6 +11,7 @@ const MainPage = () => {
           alt=""
         />
       </div>
+
       <div>
         <h2 style={{ fontSize: "30px" }}>WATCHES AND WONDERS 2022</h2>
         <p style={{ fontSize: "20px" }}>

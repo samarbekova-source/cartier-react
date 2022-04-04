@@ -12,6 +12,7 @@ import JewelryAndWatches from "./components/Jewelry&Watches/Jewelry&Watches";
 import Cart from "./components/Cart/Cart";
 import Details from "./components/Details/Details";
 import Edit from "./components/Edit/Edit";
+import ProductsList from "./components/ProductsList/ProductsList";
 
 const Routing = () => {
   let PUBLIC_ROUTES = [
@@ -20,11 +21,11 @@ const Routing = () => {
       element: <MainPage />,
       id: 1,
     },
-    {
-      link: "/jewelry&watches",
-      element: <JewelryAndWatches />,
-      id: 2,
-    },
+    // {
+    //   link: "/jewelry&watches",
+    //   element: <JewelryAndWatches />,
+    //   id: 2,
+    // },
     {
       link: "/news",
       element: <News />,
@@ -43,6 +44,11 @@ const Routing = () => {
     {
       link: "/products/:id",
       element: <Details />,
+      id: 6,
+    },
+    {
+      link: "/jewelry&watches",
+      element: <ProductsList />,
       id: 6,
     },
   ];

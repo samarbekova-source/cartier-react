@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="contacts-a">
           <div>
             <h3>CUSTOMER CARE</h3>
-            <p>CONTACT US</p>
+            <p id="contact-us">CONTACT US</p>
             <p>CALL NOW: 800 227 8437</p>
             <p>FAQ</p>
             <p>CHECK ORDER</p>
