@@ -47,7 +47,7 @@ const Details = () => {
             size="large"
             style={{ width: "50%", margin: "15px 0px", borderRadius: "10px" }}
           >
-            {checkItem ? "Remove from cart" : "Add to cart"}
+            {checkItem ? "remove from cart" : "Add to cart"}
           </Button>
           <Button>Buy now</Button>
           <div>{oneJewelry.description}</div>
