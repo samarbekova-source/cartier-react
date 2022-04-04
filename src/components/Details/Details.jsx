@@ -49,7 +49,7 @@ const Details = () => {
           >
             {checkItem ? "remove from cart" : "Add to cart"}
           </Button>
-          <Button>Buy now</Button>
+          <Button>Buy nowfrdxrgfhcvghgjsss</Button>
           <div>{oneJewelry.description}</div>
         </div>
       </div>
