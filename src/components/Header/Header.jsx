@@ -31,7 +31,10 @@ const Header = () => {
       ></div>
       <div className="header">
         <div className="a-tags">
-          <a style={{ textDecoration: "none", color: "grey" }} href="#">
+          <a
+            style={{ textDecoration: "none", color: "grey" }}
+            href="#contact-us"
+          >
             CONTACT US
           </a>
 

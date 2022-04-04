@@ -21,36 +21,6 @@ const ProductCard = ({ item }) => {
   const { addProductToCart, checkItemInCart } = useContext(cartContext);
   const [checkItem, setCheckItem] = useState(checkItemInCart(item.id));
   return (
-    // <Card
-    //   style={{ width: "300px", margin: "10px" }}
-    //   cover={<img alt="example" src={item.image1} />}
-    //   actions={[
-    //     <HeartOutlined
-    //       key="icon-heart"
-    //       style={{ fontSize: "25px", color: "black" }}
-    //     />,
-    //     <ShoppingOutlined
-    //       key="icon-cart"
-    //       onClick={() => {
-    //         addProductToCart(item);
-    //         setCheckItem(checkItemInCart(item.id));
-    //       }}
-    //       style={{ fontSize: "25px", color: checkItem ? "red" : "black" }}
-    //     />,
-    //     <Link key="ellipsis" to={`/products/${item.id}`}>
-    //       <EllipsisOutlined style={{ fontSize: "25px", color: "black" }} />
-    //     </Link>,
-    //   ]}
-    // >
-    //   <Meta
-    //     title={item.model}
-    //     description={
-    //       <>
-    //         <h2>{"$" + item.price}</h2>
-    //       </>
-    //     }
-    //   />
-    // </Card>
     // new one
     <Card
       hoverable

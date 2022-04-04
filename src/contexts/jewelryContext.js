@@ -9,6 +9,7 @@ export const jewelryContext = React.createContext();
 const INIT_STATE = {
   jewelry: [],
   oneJewelry: null,
+  productsCount: 0,
 };
 
 const reducer = (state = INIT_STATE, action) => {
@@ -17,6 +18,7 @@ const reducer = (state = INIT_STATE, action) => {
       return {
         ...state,
         jewelry: action.payload.data,
+        productsCount: action.payload.headers["x-total-count"],
       };
     case CASE_GET_ONE_JEWELRY:
       return {
@@ -32,7 +34,7 @@ const JewelryContextProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, INIT_STATE);
 
   async function getJewelry() {
-    let result = await axios(JEWELRY_API);
+    let result = await axios(JEWELRY_API + window.location.search);
     console.log(result);
     dispatch({
       type: CASE_GET_JEWELRY,
@@ -66,6 +68,7 @@ const JewelryContextProvider = ({ children }) => {
       value={{
         jewelry: state.jewelry,
         oneJewelry: state.oneJewelry,
+        productsCount: state.productsCount,
         getJewelry,
         deleteJewelry,
         getOneJewelry,
