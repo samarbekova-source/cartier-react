@@ -9,7 +9,6 @@ import { cartContext } from "../../contexts/cartContext";
 
 const { Meta } = Card;
 
-
 const JewelryAndWatches = () => {
   const { jewelry } = useContext(jewelryContext);
 
@@ -28,7 +27,7 @@ const JewelryAndWatches = () => {
       }}
     >
       {myCollection.map((item) => (
-        <ProductCard key={item.id} item={item}/>
+        <ProductCard key={item.id} item={item} />
         // <Card
         //   key={item.id}
         //   hoverable
