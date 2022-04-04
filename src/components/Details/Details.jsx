@@ -1,12 +1,16 @@
 import { Button, Carousel } from "antd";
-import React, { useContext, useEffect } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { cartContext } from "../../contexts/cartContext";
 import { jewelryContext } from "../../contexts/jewelryContext";
 import Loading from "../Loading/Loading";
 
 const Details = () => {
   const { getOneJewelry, oneJewelry } = useContext(jewelryContext);
+  const { addProductToCart, checkItemInCart } = useContext(cartContext);
+
   const params = useParams();
+  const [checkItem, setCheckItem] = useState(checkItemInCart(params.id));
   //   console.log(params);
   useEffect(() => {
     getOneJewelry(params.id);
@@ -36,11 +40,16 @@ const Details = () => {
 
           <h2>{"$ " + oneJewelry.price}</h2>
           <Button
+            onClick={() => {
+              addProductToCart(oneJewelry);
+              setCheckItem(checkItemInCart(oneJewelry.id));
+            }}
             size="large"
             style={{ width: "50%", margin: "15px 0px", borderRadius: "10px" }}
           >
-            Add to cart
+            {checkItem ? "Remove from cart" : "Add to cart"}
           </Button>
+          <Button>Buy now</Button>
           <div>{oneJewelry.description}</div>
         </div>
       </div>

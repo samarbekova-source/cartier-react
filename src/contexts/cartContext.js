@@ -64,6 +64,7 @@ const CartContextProvider = ({ children }) => {
     cart.totalPrice = calcTotalPrice(cart.jewelry);
 
     localStorage.setItem("cart", JSON.stringify(cart));
+    getCart()
   }
 
   function checkItemInCart(id) {
