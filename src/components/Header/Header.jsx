@@ -1,20 +1,34 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import "./Header.css";
 
 import Navbar from "../Navbar/Navbar";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import {
   HeartOutlined,
+  LogoutOutlined,
   ShoppingOutlined,
   UserOutlined,
 } from "@ant-design/icons";
 import { cartContext } from "../../contexts/cartContext";
-import { Badge } from "antd";
+import { Badge, Button } from "antd";
+import { authContext } from "../../contexts/authContext";
 
 const Header = () => {
-  const { cartLength } = useContext(cartContext);
+  const { getCart, cartLength } = useContext(cartContext);
+  const { currentUser, handleLogOut } = useContext(authContext);
+  const navigate = useNavigate();
+  useEffect(() => {
+    getCart();
+  }, []);
   return (
     <>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "flex-end",
+          marginTop: "10px",
+        }}
+      ></div>
       <div className="header">
         <div className="a-tags">
           <a
@@ -38,14 +52,37 @@ const Header = () => {
             />
           </Link>
         </div>
-        <div className="icons">
+        <div
+          className="icons"
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+          }}
+        >
           <HeartOutlined style={{ fontSize: "25px", color: "grey" }} />
-          <UserOutlined style={{ fontSize: "25px", color: "grey" }} />
+
           <Link to="/cart">
             <Badge count={+cartLength}>
               <ShoppingOutlined style={{ fontSize: "25px", color: "grey" }} />
             </Badge>
           </Link>
+          {currentUser ? (
+            <span style={{ display: "flex", flexDirection: "column-reverse" }}>
+              <h4 style={{ fontWeight: "bold", marginTop: "10px" }}>
+                {" "}
+                {currentUser}
+              </h4>
+              <LogoutOutlined
+                onClick={handleLogOut}
+                style={{ fontSize: "25px", color: "grey", marginTop: "-27px" }}
+              />
+            </span>
+          ) : (
+            <UserOutlined
+              onClick={() => navigate("/auth")}
+              style={{ fontSize: "25px", color: "grey" }}
+            />
+          )}
         </div>
       </div>
       <Navbar />

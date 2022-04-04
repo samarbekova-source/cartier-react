@@ -9,12 +9,17 @@
 
 // const { Meta } = Card;
 
+
 // const JewelryAndWatches = () => {
 //   const { jewelry } = useContext(jewelryContext);
 
 // const { addProductToCart, checkItemInCart } = useContext(cartContext);
 // const [checkItem, setCheckItem] = useState(checkItemInCart(item.id));
 // console.log(jewelry);
+
+const JewelryAndWatches = () => {
+  const { jewelry } = useContext(jewelryContext);
+
 
 // return (
 //   <div
@@ -33,7 +38,64 @@
 // );
 // };
 
+
 // export default JewelryAndWatches;
+
+  return (
+    <div
+      style={{
+        display: "flex",
+        flexWrap: "wrap",
+        justifyContent: "space-around",
+        width: "100%",
+        margin: "40px auto",
+      }}
+    >
+      {myCollection.map((item) => (
+        <ProductCard key={item.id} item={item} />
+        // <Card
+        //   key={item.id}
+        //   hoverable
+        //   style={{ width: "400px", margin: "5px ", border: "none" }}
+        //   cover={
+        //     <Carousel autoplay>
+        //       <div>
+        //         <img
+        //           style={contentStyle}
+        //           height="100%"
+        //           alt="example"
+        //           src={item.image1}
+        //         />
+        //       </div>
+        //       <div>
+        //         <img style={contentStyle} src={item.image2} />
+        //       </div>
+        //       <div>
+        //         <img style={contentStyle} src={item.image1} />
+        //       </div>
+        //       <div>
+        //         <img style={contentStyle} src={item.image2} />
+        //       </div>
+        //       <div>
+        //         <img style={contentStyle} src={item.image1} />
+        //       </div>
+        //     </Carousel>
+        //   }
+        // >
+        //   <Meta
+        //     style={{ textAlign: "center", color: "rgb(221, 212, 212);" }}
+        //     title={
+        //       <>
+        //         <h4>{item.model}</h4>
+        //       </>
+        //     }
+        //     description={
+        //       <>
+        //         <h3>{"$" + item.price}</h3>
+        //       </>
+        //     }
+        //   />
+
 
 // <Card
 //   key={item.id}
