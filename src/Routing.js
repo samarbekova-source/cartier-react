@@ -12,7 +12,11 @@ import JewelryAndWatches from "./components/Jewelry&Watches/Jewelry&Watches";
 import Cart from "./components/Cart/Cart";
 import Details from "./components/Details/Details";
 import Edit from "./components/Edit/Edit";
+
 import Auth from "./components/Auth/Auth";
+
+
+
 const Routing = () => {
   let PUBLIC_ROUTES = [
     {
