@@ -12,11 +12,9 @@ import JewelryAndWatches from "./components/Jewelry&Watches/Jewelry&Watches";
 import Cart from "./components/Cart/Cart";
 import Details from "./components/Details/Details";
 import Edit from "./components/Edit/Edit";
-import ProductsList from "./components/ProductsList/ProductsList";
+import ProductsList from "../src/components/ProductsList/ProductsList";
 
 import Auth from "./components/Auth/Auth";
-
-
 
 const Routing = () => {
   let PUBLIC_ROUTES = [
@@ -51,16 +49,12 @@ const Routing = () => {
       id: 6,
     },
     {
-
       link: "/jewelry&watches",
       element: <ProductsList />,
-      id: 6,
-
-      link: "/auth",
-      element: <Auth />,
-      id: 7,
-
+      id: 8,
     },
+
+    { link: "/auth", element: <Auth />, id: 7 },
   ];
 
   let ADMIN_ROUTES = [

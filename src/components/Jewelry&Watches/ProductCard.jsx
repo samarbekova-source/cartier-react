@@ -88,6 +88,7 @@ const ProductCard = ({ item }) => {
         <Link key="ellipsis" to={`/products/${item.id}`}>
           <EllipsisOutlined style={{ fontSize: "25px", color: "black" }} />{" "}
         </Link>
+        
       </div>
     </Card>
   );

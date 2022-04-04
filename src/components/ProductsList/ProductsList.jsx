@@ -34,7 +34,7 @@ const ProductsList = () => {
   useEffect(() => {
     getJewelry();
   }, [searchParams]);
-  // console.log(jewelry)
+  console.log(jewelry);
   return (
     <div className="container">
       <div className="products-search">

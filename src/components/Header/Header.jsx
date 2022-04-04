@@ -68,7 +68,9 @@ const Header = () => {
           </Link>
           {currentUser ? (
             <span style={{ display: "flex", flexDirection: "column-reverse" }}>
-              <h4 style={{ fontWeight: "bold", marginTop: "10px" }}>
+              <h4
+                style={{ fontWeight: "bold", marginTop: "10px", color: "grey" }}
+              >
                 {" "}
                 {currentUser}
               </h4>
