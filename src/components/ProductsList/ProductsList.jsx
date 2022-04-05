@@ -39,14 +39,19 @@ const ProductsList = () => {
     <div className="container">
       <div className="products-search">
         <div
-          style={{ cursor: "pointer", width: "100%" }}
+          style={{
+            cursor: "pointer",
+            width: "100%",
+            marginTop: "30px",
+            fontWeight: "300",
+          }}
           onClick={() => setShowFilters(!showFilters)}
         >
           {showFilters ? "HIDE FILTERS" : "SHOW FILTERS"}
         </div>
         <Input.Search
           placeholder="Search..."
-          style={{ width: "25vw" }}
+          style={{ width: "25vw", marginTop: "30px" }}
           value={searchValue}
           onChange={(e) => setSearchValue(e.target.value)}
         />
@@ -64,7 +69,7 @@ const ProductsList = () => {
         style={{
           display: "flex",
           flexWrap: "wrap",
-          justifyContent: "space-around",
+          justifyContent: "space-evenly",
           width: "100%",
           margin: "40px auto",
         }}
