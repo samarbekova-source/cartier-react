@@ -15,6 +15,7 @@ import Edit from "./components/Edit/Edit";
 import ProductsList from "../src/components/ProductsList/ProductsList";
 
 import Auth from "./components/Auth/Auth";
+import Orders from "./components/Orders/Orders";
 
 const Routing = () => {
   let PUBLIC_ROUTES = [
@@ -55,6 +56,11 @@ const Routing = () => {
     },
 
     { link: "/auth", element: <Auth />, id: 7 },
+    {
+      link: "/orders",
+      element: <Orders />,
+      id: 9,
+    },
   ];
 
   let ADMIN_ROUTES = [
