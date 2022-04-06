@@ -32,27 +32,12 @@ const Orders = () => {
 
   return (
     <>
-      <div
-        className="main"
-        style={{ display: "flex", justifyContent: "space-around" }}
-      >
-        <div
-          style={{
-            width: "45%",
-          }}
-        >
+      <div className="main">
+        <div className="billing_adress">
           <h2>Billing Address</h2>
 
-          <div
-            className="bills"
-            style={{
-              display: "flex",
-              justifyContent: "flex-start",
-              alignItems: "center",
-            }}
-          >
+          <div className="bills">
             <UserOutlined style={{ marginBottom: "8px", fontSize: "20px" }} />
-
             <h3 style={{ marginLeft: "10px" }}>Full name</h3>
           </div>
           <Input
@@ -63,14 +48,7 @@ const Orders = () => {
             placeholder="Colin M. Doe"
           ></Input>
 
-          <div
-            className="bills"
-            style={{
-              display: "flex",
-              justifyContent: "flex-start",
-              alignItems: "center",
-            }}
-          >
+          <div className="bills">
             <MailOutlined style={{ marginBottom: "8px", fontSize: "20px" }} />
             <h3 style={{ marginLeft: "10px" }}> Email</h3>
           </div>
@@ -81,14 +59,7 @@ const Orders = () => {
             name="email"
             placeholder="colin@example.com"
           ></Input>
-          <div
-            className="bills"
-            style={{
-              display: "flex",
-              justifyContent: "flex-start",
-              alignItems: "center",
-            }}
-          >
+          <div className="bills">
             <IdcardOutlined style={{ marginBottom: "8px", fontSize: "20px" }} />
             <h3 style={{ marginLeft: "10px" }}>Address</h3>
           </div>
@@ -99,14 +70,7 @@ const Orders = () => {
             name="address"
             placeholder="542 W. 15th Street"
           ></Input>
-          <div
-            className="bills"
-            style={{
-              display: "flex",
-              justifyContent: "flex-start",
-              alignItems: "center",
-            }}
-          >
+          <div className="bills">
             <BankOutlined style={{ marginBottom: "8px", fontSize: "20px" }} />
             <h3 style={{ marginLeft: "10px" }}>City</h3>
           </div>
@@ -117,14 +81,7 @@ const Orders = () => {
             name="city"
             placeholder="New York"
           ></Input>
-          <div
-            className="bills"
-            style={{
-              display: "flex",
-              justifyContent: "flex-start",
-              alignItems: "center",
-            }}
-          >
+          <div className="bills">
             <h3 style={{ marginLeft: "10px" }}>Zip</h3>
           </div>
           <Input

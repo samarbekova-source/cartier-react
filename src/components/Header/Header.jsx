@@ -49,17 +49,11 @@ const Header = () => {
             flexWrap: "wrap",
           }}
         >
-
           <Link to="favorites">
             <Badge count={+favoriteLength}>
-              <HeartOutlined
-                style={{ fontSize: "25px", color: "grey", paddingLeft: "15px" }}
-              />
+              <HeartOutlined className="heart" />
             </Badge>
           </Link>
-
-          <HeartOutlined className="heart" />
-
 
           <Link to="/cart">
             <Badge count={+cartLength}>
@@ -71,7 +65,6 @@ const Header = () => {
               <h4
                 style={{ fontWeight: "bold", marginTop: "10px", color: "grey" }}
               >
-                {" "}
                 {currentUser}
               </h4>
               <LogoutOutlined className="logout" onClick={handleLogOut} />
