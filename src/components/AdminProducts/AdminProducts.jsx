@@ -13,15 +13,8 @@ const AdminProducts = () => {
   console.log(jewelry);
   return (
     <div className="admin-products">
-      <Col span={15}>
-        <List
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            // border: "1px solid red",
-          }}
-        >
+      <Col span={14}>
+        <List>
           <VirtualList data={jewelry} itemHeight={100} itemKey="email">
             {(item) => (
               <List.Item key={item.id}>
