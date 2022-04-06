@@ -9,7 +9,7 @@ const Filters = ({ model, setModel, price, setPrice }) => {
         value={model}
         onChange={(e) => setModel(e)}
         placeholder="Filter by model"
-        style={{ width: "100%" }}
+        style={{ width: "30%" }}
         allowClear
         mode="multiple"
       >
@@ -27,6 +27,12 @@ const Filters = ({ model, setModel, price, setPrice }) => {
         max={50000}
         step={100}
         range
+        // style={{
+        //   width: "50%",
+        //   display: "flex",
+        //   justifyContent: "center",
+        //   alignItems: "center",
+        // }}
       />
     </div>
   );

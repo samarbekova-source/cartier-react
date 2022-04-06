@@ -16,6 +16,7 @@ import ProductsList from "../src/components/ProductsList/ProductsList";
 
 import Auth from "./components/Auth/Auth";
 import Orders from "./components/Orders/Orders";
+import Search from "antd/lib/transfer/search";
 
 const Routing = () => {
   let PUBLIC_ROUTES = [
@@ -61,6 +62,11 @@ const Routing = () => {
       element: <Orders />,
       id: 9,
     },
+    // {
+    //   link: "/search",
+    //   element: <Search />,
+    //   id: 10,
+    // },
   ];
 
   let ADMIN_ROUTES = [

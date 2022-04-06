@@ -1,6 +1,6 @@
 import { Button, Carousel } from "antd";
 import React, { useContext, useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { cartContext } from "../../contexts/cartContext";
 import { jewelryContext } from "../../contexts/jewelryContext";
 import Loading from "../Loading/Loading";
@@ -45,11 +45,23 @@ const Details = () => {
               setCheckItem(checkItemInCart(oneJewelry.id));
             }}
             size="large"
-            style={{ width: "50%", margin: "15px 0px", borderRadius: "10px" }}
+            style={{ width: "40%", margin: "15px 0px", borderRadius: "10px" }}
           >
             {checkItem ? "remove from cart" : "Add to cart"}
           </Button>
-          <Button>Buy now</Button>
+          <Link to="/orders">
+            <Button
+              size="large"
+              style={{
+                width: "40%",
+                margin: "15px 0px",
+                borderRadius: "10px",
+                marginLeft: "8px",
+              }}
+            >
+              Buy now
+            </Button>
+          </Link>
           <div>{oneJewelry.description}</div>
         </div>
       </div>
