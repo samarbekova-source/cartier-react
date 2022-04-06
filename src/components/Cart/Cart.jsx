@@ -12,7 +12,7 @@ const Cart = () => {
   console.log(cart);
 
   return (
-    <div className="container">
+    <div className="container" style={{ width: "90%", marginLeft: "5%" }}>
       <List
         itemLayout="horizontal"
         dataSource={cart.jewelry}
@@ -30,7 +30,7 @@ const Cart = () => {
                     alignItems: "center",
                   }}
                 >
-                  <div>
+                  <div style={{ display: "flex", flexDirection: "column" }}>
                     <h4>{item.item.model}</h4>
                   </div>
                   <h3>{"$" + item.item.price}</h3>
@@ -38,7 +38,9 @@ const Cart = () => {
               }
               description={
                 <>
-                  <div>{item.item.description}</div>
+                  <div style={{ display: "flex", flexDirection: "column" }}>
+                    {item.item.description}
+                  </div>
                   <div
                     style={{
                       display: "flex",

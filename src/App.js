@@ -5,16 +5,21 @@ import JewelryContextProvider from "./contexts/jewelryContext";
 import Routing from "./Routing";
 import CartContextProvider from "./contexts/cartContext";
 import AuthContextProvider from "./contexts/authContext";
+import FavoriteContextProvider from "./contexts/favoritesContext";
+
+// import FavContextProvider from "./contexts/favoritesContext";
 
 function App() {
   return (
     <div className="App">
       <AuthContextProvider>
-      <JewelryContextProvider>
-        <CartContextProvider>
-          <Routing />
-        </CartContextProvider>
-      </JewelryContextProvider>
+        <JewelryContextProvider>
+          <FavoriteContextProvider>
+            <CartContextProvider>
+              <Routing />
+            </CartContextProvider>
+          </FavoriteContextProvider>
+        </JewelryContextProvider>
       </AuthContextProvider>
     </div>
   );

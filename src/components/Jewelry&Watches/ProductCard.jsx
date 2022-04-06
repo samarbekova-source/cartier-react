@@ -8,6 +8,7 @@ import {
 import { Link } from "react-router-dom";
 import { cartContext } from "../../contexts/cartContext";
 import "./Jewelry&Watches.css";
+import { favoritesContext } from "../../contexts/favoritesContext";
 
 const { Meta } = Card;
 
@@ -21,6 +22,9 @@ const contentStyle = {
 const ProductCard = ({ item }) => {
   const { addProductToCart, checkItemInCart } = useContext(cartContext);
   const [checkItem, setCheckItem] = useState(checkItemInCart(item.id));
+  const { addProductToFavorite, checkItemInFavorite } =
+    useContext(favoritesContext);
+  const [checkItem2, setCheckItem2] = useState(checkItemInFavorite(item.id));
   return (
     // new one
     <Card
@@ -61,7 +65,17 @@ const ProductCard = ({ item }) => {
       />
 
       <div className="container">
-        <HeartOutlined style={{ margin: "10px", fontSize: "25px" }} />
+        <HeartOutlined
+          onClick={() => {
+            addProductToFavorite(item);
+            setCheckItem2(checkItemInFavorite(item.id));
+          }}
+          style={{
+            margin: "10px",
+            fontSize: "25px",
+            color: checkItem2 ? "red" : "black",
+          }}
+        />
         <ShoppingOutlined
           onClick={() => {
             addProductToCart(item);
