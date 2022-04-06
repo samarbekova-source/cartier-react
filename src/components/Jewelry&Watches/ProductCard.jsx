@@ -7,6 +7,7 @@ import {
 } from "@ant-design/icons";
 import { Link } from "react-router-dom";
 import { cartContext } from "../../contexts/cartContext";
+import "./Jewelry&Watches.css";
 
 const { Meta } = Card;
 
@@ -31,7 +32,7 @@ const ProductCard = ({ item }) => {
             <img
               className="img-list"
               style={contentStyle}
-              // width="100%"
+              width="100%"
               alt="example"
               src={item.image1}
             />
@@ -42,12 +43,6 @@ const ProductCard = ({ item }) => {
           <div>
             <img style={contentStyle} src={item.image1} />
           </div>
-          {/* <div>
-            <img style={contentStyle} src={item.image2} />
-          </div>
-          <div>
-            <img style={contentStyle} src={item.image1} />
-          </div> */}
         </Carousel>
       }
     >
@@ -65,14 +60,7 @@ const ProductCard = ({ item }) => {
         }
       />
 
-      <div
-        className="container"
-        // style={{
-        //   display: "flex",
-        //   alignItems: "center",
-        //   justifyContent: "center",
-        // }}
-      >
+      <div className="container">
         <HeartOutlined style={{ margin: "10px", fontSize: "25px" }} />
         <ShoppingOutlined
           onClick={() => {
