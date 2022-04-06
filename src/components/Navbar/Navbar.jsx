@@ -20,6 +20,11 @@ const Navbar = () => {
       link: "/stores",
       id: 4,
     },
+    {
+      title: "ORDERS",
+      link: "/orders",
+      id: 5,
+    },
   ];
   const location = useLocation();
   return (

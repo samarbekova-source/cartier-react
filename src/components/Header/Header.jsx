@@ -6,6 +6,7 @@ import { Link, useNavigate } from "react-router-dom";
 import {
   HeartOutlined,
   LogoutOutlined,
+  SearchOutlined,
   ShoppingOutlined,
   UserOutlined,
 } from "@ant-design/icons";
@@ -32,7 +33,10 @@ const Header = () => {
             CONTACT US
           </a>
 
-          <a style={{ textDecoration: "none", color: "grey" }} href="#">
+          <a
+            style={{ textDecoration: "none", color: "grey" }}
+            href="https://www.cartier.com/en-us/services.html"
+          >
             SERVICES
           </a>
         </div>
@@ -53,11 +57,20 @@ const Header = () => {
             flexWrap: "wrap",
           }}
         >
-          <HeartOutlined style={{ fontSize: "25px", color: "grey" }} />
+          <HeartOutlined
+            style={{ fontSize: "25px", color: "grey", paddingLeft: "15px" }}
+          />
 
           <Link to="/cart">
             <Badge count={+cartLength}>
-              <ShoppingOutlined style={{ fontSize: "25px", color: "grey" }} />
+              <ShoppingOutlined
+                style={{
+                  fontSize: "25px",
+                  color: "grey",
+                  paddingLeft: "15px",
+                  paddingRight: "15px",
+                }}
+              />
             </Badge>
           </Link>
           {currentUser ? (
