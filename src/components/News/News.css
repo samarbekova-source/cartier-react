@@ -1,0 +1,43 @@
+.container-a {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.news-second {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  .news-second {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+}
+
+.news-third {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  .news-third {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .news-third {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+}

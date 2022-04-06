@@ -12,7 +12,7 @@ const Footer = () => {
     <>
       <div className="footer-a">
         <div className="contacts-a">
-          <div>
+          <div id="customer">
             <h3>CUSTOMER CARE</h3>
             <p id="contact-us">CONTACT US</p>
             <p>CALL NOW: 800 227 8437</p>
@@ -20,13 +20,13 @@ const Footer = () => {
             <p>CHECK ORDER</p>
           </div>
 
-          <div>
+          <div id="company">
             <h3>OUR COMPANY </h3>
             <p>FIND A BOUTIQUE</p>
             <p>CAREERS</p>
           </div>
 
-          <div>
+          <div id="legal">
             <h3>LEGAL AREA </h3>
             <p>TERMS OF USE PRIVACY POLICY</p>
             <p>CONDITIONS OF SALE</p>
@@ -38,6 +38,7 @@ const Footer = () => {
                 style={{
                   margin: "10px",
                   fill: "black",
+                  fontSize: "20px",
                 }}
               />
             </a>
@@ -46,19 +47,37 @@ const Footer = () => {
               href="https://www.instagram.com/cartier/?utm_medium=copy_link"
               target="_blank"
             >
-              <InstagramOutlined />
+              <InstagramOutlined
+                style={{
+                  margin: "10px",
+                  fill: "black",
+                  fontSize: "20px",
+                }}
+              />
             </a>
             <a
               href="https://www.youtube.com/watch?v=GH9fT1jlJPU"
               target="_blank"
             >
-              <YoutubeOutlined style={{ margin: "10px" }} />
+              <YoutubeOutlined
+                style={{
+                  margin: "10px",
+                  fill: "black",
+                  fontSize: "20px",
+                }}
+              />
             </a>
             <a
               href="https://twitter.com/Cartier?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
               target="_blank"
             >
-              <TwitterOutlined style={{ margin: "10px" }} />
+              <TwitterOutlined
+                style={{
+                  margin: "10px",
+                  fill: "black",
+                  fontSize: "20px",
+                }}
+              />
             </a>
           </div>
         </div>

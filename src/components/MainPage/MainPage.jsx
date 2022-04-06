@@ -4,7 +4,7 @@ import "../MainPage/MainPage.css";
 const MainPage = () => {
   return (
     <div className="container">
-      <div>
+      <div className="first-photo">
         <img
           style={{ width: "100%", marginTop: "50px" }}
           src="https://www.cartier.com/on/demandware.static/-/Library-Sites-CartierSharedLibrary-BGTJ/default/dw5b6f3822/homepage/2022/HP-April-2022/WW22_PUSH%20HP_HERO-MODULE-2560x996_1%20(1).jpg"
@@ -12,7 +12,7 @@ const MainPage = () => {
         />
       </div>
 
-      <div>
+      <div className="text-1">
         <h2 style={{ fontSize: "30px" }}>WATCHES AND WONDERS 2022</h2>
         <p style={{ fontSize: "20px" }}>
           Unveiling the latest innovations in Geneva and new vision of
@@ -25,7 +25,7 @@ const MainPage = () => {
       <div className="second-block-a">
         <div>
           <img
-            style={{ width: "90%", height: "85%" }}
+            style={{ width: "100%", height: "85%" }}
             src="https://www.cartier.com/on/demandware.static/-/Library-Sites-CartierSharedLibrary-BGTJ/default/dwcfaf5a05/homepage/2022/HP-April-2022/02_TANK.jpg"
             alt=""
           />

@@ -23,13 +23,7 @@ const Header = () => {
   }, []);
   return (
     <>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "flex-end",
-          marginTop: "10px",
-        }}
-      ></div>
+      <div className="container"></div>
       <div className="header">
         <div className="a-tags">
           <a

@@ -4,7 +4,12 @@ import { names } from "../../helpers/names";
 
 const Filters = ({ model, setModel, price, setPrice }) => {
   return (
-    <div style={{ marginTop: "20px" }}>
+    <div
+      style={{
+        marginTop: "30px",
+        width: "100%",
+      }}
+    >
       <Select
         value={model}
         onChange={(e) => setModel(e)}

@@ -29,8 +29,9 @@ const ProductCard = ({ item }) => {
         <Carousel autoplay>
           <div>
             <img
+              className="img-list"
               style={contentStyle}
-              height="100%"
+              // width="100%"
               alt="example"
               src={item.image1}
             />
@@ -41,12 +42,12 @@ const ProductCard = ({ item }) => {
           <div>
             <img style={contentStyle} src={item.image1} />
           </div>
-          <div>
+          {/* <div>
             <img style={contentStyle} src={item.image2} />
           </div>
           <div>
             <img style={contentStyle} src={item.image1} />
-          </div>
+          </div> */}
         </Carousel>
       }
     >
@@ -66,11 +67,11 @@ const ProductCard = ({ item }) => {
 
       <div
         className="container"
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
+        // style={{
+        //   display: "flex",
+        //   alignItems: "center",
+        //   justifyContent: "center",
+        // }}
       >
         <HeartOutlined style={{ margin: "10px", fontSize: "25px" }} />
         <ShoppingOutlined
@@ -88,7 +89,6 @@ const ProductCard = ({ item }) => {
         <Link key="ellipsis" to={`/products/${item.id}`}>
           <EllipsisOutlined style={{ fontSize: "25px", color: "black" }} />{" "}
         </Link>
-        
       </div>
     </Card>
   );
