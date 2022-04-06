@@ -1,8 +1,17 @@
-.container-a {
+/* .container-a {
   width: 100%;
   margin: 0 auto;
+} */
+
+#stories {
+  margin-top: 40px;
 }
 
+/* @media screen and (max-width: 425px) {
+  #stories {
+    font-size: 60px;
+  }
+} */
 .news-second {
   width: 100%;
   display: flex;
@@ -18,6 +27,13 @@
   }
 }
 
+@media screen and (max-width: 425px) {
+  .news-second img {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+}
 .news-third {
   width: 100%;
   display: flex;

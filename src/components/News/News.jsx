@@ -20,9 +20,10 @@ const News = () => {
         </h1>
       </div>
 
-      <div style={{ marginTop: "40px" }}>
+      <div id="stories">
         <h2>LATEST STORIES</h2>
       </div>
+
       <div className="news-second">
         <div>
           <img
