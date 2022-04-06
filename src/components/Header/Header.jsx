@@ -13,10 +13,12 @@ import {
 import { cartContext } from "../../contexts/cartContext";
 import { Badge, Button } from "antd";
 import { authContext } from "../../contexts/authContext";
+import { favoritesContext } from "../../contexts/favoritesContext";
 
 const Header = () => {
   const { getCart, cartLength } = useContext(cartContext);
   const { currentUser, handleLogOut } = useContext(authContext);
+  const { favoriteLength } = useContext(favoritesContext);
   const navigate = useNavigate();
   useEffect(() => {
     getCart();
@@ -47,7 +49,17 @@ const Header = () => {
             flexWrap: "wrap",
           }}
         >
+
+          <Link to="favorites">
+            <Badge count={+favoriteLength}>
+              <HeartOutlined
+                style={{ fontSize: "25px", color: "grey", paddingLeft: "15px" }}
+              />
+            </Badge>
+          </Link>
+
           <HeartOutlined className="heart" />
+
 
           <Link to="/cart">
             <Badge count={+cartLength}>
