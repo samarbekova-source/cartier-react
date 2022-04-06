@@ -10,24 +10,18 @@ const News = () => {
           src="https://cdn.occtoo.com/cartier/magazine-media/oscars_HERO_v2.jpg"
           alt=""
         />
-        <h1
-          style={{
-            fontSize: "30px",
-            marginTop: "5px",
-          }}
-        >
+        <h1 className="first_line">
           MAKING AN APPERANCE AT THE 93rd ACADEMY AWARDS
         </h1>
       </div>
 
-      <div id="stories">
+      <div className="stories">
         <h2>LATEST STORIES</h2>
       </div>
 
       <div className="news-second">
         <div>
           <img
-            style={{ width: "100%", marginRight: "20px" }}
             src="https://cdn.occtoo.com/cartier/magazine-media/Golden-globes_slide_01.jpg"
             alt=""
           />
@@ -35,8 +29,8 @@ const News = () => {
         </div>
         <div>
           <img
-            style={{ width: "100%", marginLeft: "15px" }}
-            src="https://cdn.occtoo.com/cartier/magazine-media/Panthere_de_Cartier_SF_slide_01.jpg"
+            id="bag_logo"
+            src="https://cdn.occtoo.com/cartier/magazine-media/Panthere_de_Cartier_slide_01_v2.jpg"
             alt=""
           />
           <p>3 THINGS TO KNOW: THE PANTERE DE CAERIER BAG</p>
@@ -68,10 +62,10 @@ const News = () => {
           src="https://cdn.occtoo.com/cartier/magazine-media/beautiful-creatures_LONGPUSH.png"
           alt=""
         />
-        <h3 style={{ fontSize: "20px", marginTop: "5px" }}>
+        <h2 style={{ fontSize: "20px", marginTop: "5px" }}>
           BEAUTIFUL CREATURES: CARTIER AT THE AMERICAN MUSEUM OF NATURAL HISTORY
           IN NEW YORK
-        </h3>
+        </h2>
       </div>
     </div>
   );

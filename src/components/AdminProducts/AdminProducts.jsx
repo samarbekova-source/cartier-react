@@ -3,6 +3,7 @@ import React, { useContext, useEffect } from "react";
 import { jewelryContext } from "../../contexts/jewelryContext";
 import VirtualList from "rc-virtual-list";
 import { Link } from "react-router-dom";
+import "./AdminProducts.css";
 
 const AdminProducts = () => {
   const { jewelry, getJewelry, deleteJewelry } = useContext(jewelryContext);
@@ -11,16 +12,7 @@ const AdminProducts = () => {
   }, []);
   console.log(jewelry);
   return (
-    <div
-      className="container"
-      style={{
-        margin: "0 auto",
-        // border: "1px solid black",
-        width: "100vw",
-        display: "flex",
-        justifyContent: "center",
-      }}
-    >
+    <div className="admin-products">
       <Col span={15}>
         <List
           style={{

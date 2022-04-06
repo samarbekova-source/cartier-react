@@ -17,11 +17,101 @@
   }
 }
 
+#logo {
+  width: 180px;
+}
+
+@media screen and (max-width: 425px) {
+  #logo {
+    display: flex;
+    width: 140px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  #logo {
+    display: flex;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.heart {
+  font-size: 25px;
+  color: gray;
+  padding-left: 15px;
+}
+@media screen and (max-width: 425px) {
+  .heart {
+    font-size: 20px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 375px) {
+  .heart {
+    font-size: 15px;
+    margin: 0 auto;
+  }
+}
+.shop {
+  font-size: 25px;
+  color: gray;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media screen and (max-width: 425px) {
+  .shop {
+    font-size: 20px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 375px) {
+  .shop {
+    font-size: 15px;
+    margin: 0 auto;
+  }
+}
+
+.logout {
+  font-size: 25px;
+  color: gray;
+  margin-top: -27px;
+}
+
+@media screen and (max-width: 425px) {
+  .logout {
+    font-size: 20px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 375px) {
+  .logout {
+    font-size: 15px;
+    margin: 0 auto;
+  }
+}
+.user {
+  font-size: 25px;
+  color: gray;
+}
+@media screen and (max-width: 425px) {
+  .user {
+    font-size: 20px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 375px) {
+  .user {
+    font-size: 15px;
+    margin: 0 auto;
+  }
+}
 .a-tags {
   width: 200px;
   display: flex;
   justify-content: space-between;
-
   align-items: center;
   margin: 10px;
   padding-left: 15px;
@@ -32,6 +122,11 @@
   .a-tags {
     display: none;
   }
+}
+
+.a-tags a {
+  text-decoration: none;
+  color: grey;
 }
 
 @media screen and (max-width: 660px) {

@@ -1,17 +1,57 @@
-/* .container-a {
-  width: 100%;
-  margin: 0 auto;
-} */
-
-#stories {
-  margin-top: 40px;
+.first_line {
+  font-size: 30px;
+  margin-top: -5px;
+}
+@media screen and (max-width: 768px) {
+  .first_line {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .first_line {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .first_line {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .first_line {
+    font-size: 13px;
+  }
 }
 
-/* @media screen and (max-width: 425px) {
-  #stories {
-    font-size: 60px;
+.stories {
+  margin-top: 30px;
+  font-size: 28px;
+}
+@media screen and (max-width: 768px) {
+  .stories {
+    font-size: 25px;
+    margin-top: 25px;
   }
-} */
+}
+@media screen and (max-width: 425px) {
+  .stories {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .stories {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .stories {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+}
+
 .news-second {
   width: 100%;
   display: flex;
@@ -20,27 +60,46 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .news-second {
+  .news-second img {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
   }
 }
 
-@media screen and (max-width: 425px) {
-  .news-second img {
+@media screen and (max-width: 768px) {
+  .news-second {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
   }
 }
+@media screen and (max-width: 425px) {
+  .news-second {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+}
+
+#bag_logo {
+  width: 100%;
+}
+@media screen and (max-width: 425px) {
+  #bag_logo {
+    display: none;
+  }
+}
+
 .news-third {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   margin-top: 50px;
 }
-
 @media screen and (max-width: 1024px) {
   .news-third {
     display: flex;
@@ -48,10 +107,8 @@
     margin: 0 auto;
   }
 }
-
 @media screen and (max-width: 425px) {
   .news-third {
-    width: 50%;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;

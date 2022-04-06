@@ -1,3 +1,18 @@
 .rccs__card--unknown > div {
   background: rgb(5, 156, 161) !important;
 }
+
+/* @media screen and (max-width: 425px) {
+  .rccs__card--unknown > div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+} */
+
+@media screen and (max-width: 425px) {
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
