@@ -13,8 +13,8 @@ import { favoritesContext } from "../../contexts/favoritesContext";
 const { Meta } = Card;
 
 const contentStyle = {
-  // width: "100%",
-  height: "540px",
+  width: "100%",
+  // height: "540px",
   color: "#fff",
   textAlign: "center",
   background: "#364d79",

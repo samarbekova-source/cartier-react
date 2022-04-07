@@ -30,7 +30,9 @@ const Header = () => {
         <div className="a-tags">
           <a href="#contact-us">CONTACT US</a>
 
-          <a href="https://www.cartier.com/en-us/services.html">SERVICES</a>
+          <a href="https://www.cartier.com/en-us/services.html" target="_blank">
+            SERVICES
+          </a>
         </div>
 
         <div className="logo-image">
