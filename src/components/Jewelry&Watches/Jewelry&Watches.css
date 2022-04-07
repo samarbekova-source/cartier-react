@@ -11,3 +11,17 @@
     margin: 0 auto;
   }
 } */
+
+/* @media screen and (max-width: 425px) {
+  .card {
+    display: none;
+  }
+} */
+
+.img-list {
+  width: 100%;
+  color: #fff;
+  display: flex;
+  text-align: center;
+  background-color: #364d79;
+}
