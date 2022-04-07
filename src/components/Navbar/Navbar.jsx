@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { authContext } from "../../contexts/authContext";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const { currentUser } = useContext(authContext);
   const NAV_ITEMS = [
     {
       title: "JEWELRY & WATCHES",
@@ -43,15 +45,19 @@ const Navbar = () => {
           {item.title}
         </Link>
       ))}
-      <Link
-        style={{ textDecoration: "none" }}
-        to="/admin"
-        className={
-          location.pathname === "/admin" ? "navbar-item-active" : "navbar-item"
-        }
-      >
-        ADMIN
-      </Link>
+      {currentUser ? (
+        <Link
+          style={{ textDecoration: "none" }}
+          to="/admin"
+          className={
+            location.pathname === "/admin"
+              ? "navbar-item-active"
+              : "navbar-item"
+          }
+        >
+          ADMIN
+        </Link>
+      ) : null}
     </div>
   );
 };
