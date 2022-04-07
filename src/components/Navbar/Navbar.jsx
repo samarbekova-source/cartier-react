@@ -2,9 +2,12 @@ import React, { useContext } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { authContext } from "../../contexts/authContext";
 import "./Navbar.css";
+import { ADMIN_EMAIL } from "../../helpers/consts";
 
 const Navbar = () => {
   const { currentUser } = useContext(authContext);
+  console.log(currentUser);
+  console.log(ADMIN_EMAIL);
   const NAV_ITEMS = [
     {
       title: "JEWELRY & WATCHES",
@@ -45,7 +48,7 @@ const Navbar = () => {
           {item.title}
         </Link>
       ))}
-      {currentUser ? (
+      {currentUser === ADMIN_EMAIL ? (
         <Link
           style={{ textDecoration: "none" }}
           to="/admin"
