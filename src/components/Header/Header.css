@@ -64,7 +64,8 @@
 @media screen and (max-width: 425px) {
   .shop {
     font-size: 20px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin-right: 30px;
   }
 }
 @media screen and (max-width: 375px) {
@@ -100,12 +101,21 @@
   .user {
     font-size: 20px;
     margin: 0 auto;
+    margin-left: -25px;
   }
 }
 @media screen and (max-width: 375px) {
   .user {
     font-size: 15px;
     margin: 0 auto;
+    margin-left: 5px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .user {
+    font-size: 15px;
+    margin: 0 auto;
+    margin-left: 3px;
   }
 }
 .a-tags {
@@ -170,7 +180,7 @@
 
 @media screen and (max-width: 370px) {
   .icons {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     display: flex;
     justify-content: space-between;
     align-items: center;
