@@ -67,11 +67,25 @@ const Header = () => {
           {currentUser ? (
             <span style={{ display: "flex", flexDirection: "column-reverse" }}>
               <h4
-                style={{ fontWeight: "bold", marginTop: "10px", color: "grey" }}
+                style={{
+                  fontWeight: "bold",
+                  marginTop: "10px",
+                  color: "grey",
+                  marginLeft: "-160px",
+                }}
               >
                 {currentUser}
               </h4>
-              <LogoutOutlined className="logout" onClick={handleLogOut} />
+              <LogoutOutlined
+                className="logout"
+                onClick={handleLogOut}
+                style={{
+                  fontWeight: "bold",
+                  marginTop: "40px",
+                  color: "grey",
+                  marginRight: "80px",
+                }}
+              />
             </span>
           ) : (
             <UserOutlined className="user" onClick={() => navigate("/auth")} />
