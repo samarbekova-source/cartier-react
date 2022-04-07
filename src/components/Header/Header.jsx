@@ -45,8 +45,10 @@ const Header = () => {
         <div
           className="icons"
           style={{
+            width: "200px",
             display: "flex",
             flexWrap: "wrap",
+            justifyContent: "space-around",
           }}
         >
           <Link to="favorites">
