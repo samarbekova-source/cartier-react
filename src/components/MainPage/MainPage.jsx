@@ -13,10 +13,10 @@ const MainPage = () => {
       </div>
 
       <div className="text-1">
-        <h2 style={{ fontSize: "30px" }}>WATCHES AND WONDERS 2022</h2>
+        <h2>WATCHES AND WONDERS 2022</h2>
         <p style={{ fontSize: "20px" }}>
-          Unveiling the latest innovations in Geneva and new vision of
-          watchmaking and time itself
+          UNVEILING THE LATEST INNOVATIONS IN GENEVA AND NEW VISION OF
+          WATCHMAKING AND TIME ITSELF
         </p>
         <p style={{ textDecoration: "underline", fontSize: "20px" }}>
           View the novelties
@@ -30,7 +30,7 @@ const MainPage = () => {
             alt=""
           />
           <div className="text-2">
-            <h2 style={{ fontSize: "30px" }}>TANK</h2>
+            <h2>TANK</h2>
             <p style={{ fontSize: "18px" }}>
               A design legend in the world of watchmaking: exceptional form
               meets timeless elegance
@@ -47,7 +47,7 @@ const MainPage = () => {
             alt=""
           />
           <div className="text-3">
-            <h2 style={{ fontSize: "30px" }}>SANTOS DE CSRTIER</h2>
+            <h2>SANTOS DE CSRTIER</h2>
             <p style={{ fontSize: "18px" }}>
               An icon with a pioneering spirit: precise proportions take flight
               with powerful details.
@@ -66,7 +66,7 @@ const MainPage = () => {
         />
       </div>
       <div className="text-4">
-        <h2 style={{ fontSize: "30px" }}>PANTHÈRE DE CARTIER</h2>
+        <h2>PANTHÈRE DE CARTIER</h2>
         <p style={{ fontSize: "20px" }}>
           Magnetic, powerful, wild: Hear the emblem of the Maison roar.
         </p>
@@ -82,7 +82,7 @@ const MainPage = () => {
             alt=""
           />
           <div className="text-5">
-            <h2 style={{ fontSize: "30px" }}>LOVE</h2>
+            <h2>LOVE</h2>
             <p style={{ fontSize: "20px" }}>How far would you go for love?</p>
             <p style={{ textDecoration: "underline", fontSize: "20px" }}>
               Shop the collection
@@ -96,7 +96,7 @@ const MainPage = () => {
             alt=""
           />
           <div className="text-6">
-            <h2 style={{ fontSize: "30px" }}>JUSTE UN CLOU</h2>
+            <h2>JUSTE UN CLOU</h2>
             <p style={{ fontSize: "20px" }}>
               A simple nail transformed into an exquisite object
             </p>
@@ -114,7 +114,7 @@ const MainPage = () => {
             alt=""
           />
           <div className="text-7">
-            <h2 style={{ fontSize: "30px" }}>THE GREAT ANIMAL ORCHESTRA</h2>
+            <h2>THE GREAT ANIMAL ORCHESTRA</h2>
             <p style={{ fontSize: "20px" }}>Now trough May 22nd</p>
             <p style={{ textDecoration: "underline", fontSize: "20px" }}>
               About the Exhibition
@@ -128,9 +128,7 @@ const MainPage = () => {
             alt=""
           />
           <div className="text-7">
-            <h2 style={{ fontSize: "30px" }}>
-              BOOK A PERSONALISED APPOINTMENT
-            </h2>
+            <h2>BOOK A PERSONALISED APPOINTMENT</h2>
             <p style={{ textDecoration: "underline", fontSize: "20px" }}>
               Select your boutique
             </p>

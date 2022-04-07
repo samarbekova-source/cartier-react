@@ -28,25 +28,15 @@ const Header = () => {
       <div className="container"></div>
       <div className="header">
         <div className="a-tags">
-          <a
-            style={{ textDecoration: "none", color: "grey" }}
-            href="#contact-us"
-          >
-            CONTACT US
-          </a>
+          <a href="#contact-us">CONTACT US</a>
 
-          <a
-            style={{ textDecoration: "none", color: "grey" }}
-            href="https://www.cartier.com/en-us/services.html"
-          >
-            SERVICES
-          </a>
+          <a href="https://www.cartier.com/en-us/services.html">SERVICES</a>
         </div>
 
         <div className="logo-image">
           <Link to="/">
             <img
-              width="180px"
+              id="logo"
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Cartier_logo.svg/1024px-Cartier_logo.svg.png"
               alt="cartier logo"
             />
@@ -63,22 +53,13 @@ const Header = () => {
         >
           <Link to="favorites">
             <Badge count={+favoriteLength}>
-              <HeartOutlined
-                style={{ fontSize: "25px", color: "grey", paddingLeft: "15px" }}
-              />
+              <HeartOutlined className="heart" />
             </Badge>
           </Link>
 
           <Link to="/cart">
             <Badge count={+cartLength}>
-              <ShoppingOutlined
-                style={{
-                  fontSize: "25px",
-                  color: "grey",
-                  paddingLeft: "15px",
-                  paddingRight: "15px",
-                }}
-              />
+              <ShoppingOutlined className="shop" />
             </Badge>
           </Link>
           {currentUser ? (
@@ -86,19 +67,12 @@ const Header = () => {
               <h4
                 style={{ fontWeight: "bold", marginTop: "10px", color: "grey" }}
               >
-                {" "}
                 {currentUser}
               </h4>
-              <LogoutOutlined
-                onClick={handleLogOut}
-                style={{ fontSize: "25px", color: "grey", marginTop: "-27px" }}
-              />
+              <LogoutOutlined className="logout" onClick={handleLogOut} />
             </span>
           ) : (
-            <UserOutlined
-              onClick={() => navigate("/auth")}
-              style={{ fontSize: "25px", color: "grey" }}
-            />
+            <UserOutlined className="user" onClick={() => navigate("/auth")} />
           )}
         </div>
       </div>

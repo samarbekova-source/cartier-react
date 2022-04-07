@@ -4,6 +4,23 @@
   margin-top: 20px;
   font-size: 0.85rem;
 }
+
+@media screen and (max-width: 425px) {
+  .navbar {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .navbar {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .navbar {
+    font-size: 0.65rem;
+  }
+}
 .navbar-item {
   margin: 5px 15px;
   color: black;
